@@ -319,6 +319,10 @@ video,
 	max-width: 100%;
 }
 
+#hero-video video {
+	width: 100%;
+}
+
 img {
 	height: auto;
 }

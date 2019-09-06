@@ -119,7 +119,7 @@ function front_page_slider() {
     
     if(get_theme_mod('fp-video') !== '' ) {
       
-      echo  '<div><video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">' .
+      echo  '<div id="hero-video"><video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">' .
             '<source src="' . $fp_video . '" type="video/mp4">' .
             '</video></div>';
       
